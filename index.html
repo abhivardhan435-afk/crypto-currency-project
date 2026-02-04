@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Market Analysis | Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="logo">CryptoAnalysis<span class="dot">.</span></div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <span class="badge">Crypto Market Research</span>
+            <h1>Cryptocurrency Market <br> <span class="gradient-text">Analysis</span></h1>
+            <p class="subtitle">Classifying Coins by Market Capitalization to Identify Trends and Risks.</p>
+            <div class="cta-buttons">
+                <a href="http://localhost:8501" target="_blank" class="btn primary">Launch Dashboard</a>
+                <a href="#about" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- A placeholder for a simulated chart -->
+            <canvas id="heroChart"></canvas>
+        </div>
+    </header>
+
+    <section id="about" class="glass-section">
+        <div class="section-header">
+            <h2>Abstract</h2>
+            <div class="line"></div>
+        </div>
+        <p class="lead-text">
+            The sudden growth of cryptocurrencies has led to a highly volatile and dynamic financial market.
+            This project aims to categorize cryptocurrencies into <strong>Large-cap</strong>, <strong>Mid-cap</strong>,
+            and <strong>Small-cap</strong> categories to better understand market trends.
+        </p>
+        <p>
+            By leveraging market value, trading volume, and historical prices from reliable APIs, we investigate how
+            market capitalization relies on price volatility and liquidity.
+            Our findings reveal that big-cap cryptos offer stability, while smaller-cap coins present higher volatility
+            and risk.
+        </p>
+    </section>
+
+    <section id="objectives" class="cards-section">
+        <div class="section-header">
+            <h2>Objectives</h2>
+            <div class="line"></div>
+        </div>
+        <div class="card-grid">
+            <div class="glass-card">
+                <div class="icon">📊</div>
+                <h3>Data Collection</h3>
+                <p>Collect and organize market data including cap, volume, and historical trends from reliable online
+                    sources and APIs.</p>
+            </div>
+            <div class="glass-card">
+                <div class="icon">🏷️</div>
+                <h3>Classification</h3>
+                <p>Classify cryptocurrencies into large, mid, and small-cap categories and evaluate their statistical
+                    characteristics.</p>
+            </div>
+            <div class="glass-card">
+                <div class="icon">🔍</div>
+                <h3>Analysis</h3>
+                <p>Analyze relationships between capitalization, volatility, and liquidity to identify stability
+                    patterns and risk levels.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="outcomes" class="glass-section alt-bg">
+        <div class="section-header">
+            <h2>Project Outcomes</h2>
+            <div class="line"></div>
+        </div>
+        <ul class="outcomes-list">
+            <li>
+                <span class="outcome-number">01</span>
+                <div class="outcome-content">
+                    <h3>AI-Powered Risk Detection Model</h3>
+                    <p>An intelligent system analyzing volatility and liquidity to identify past risk patterns
+                        associated with market crashes.</p>
+                </div>
+            </li>
+            <li>
+                <span class="outcome-number">02</span>
+                <div class="outcome-content">
+                    <h3>Predictive Risk Assessment Dashboard</h3>
+                    <p>AI-driven dashboard utilizing models like Random Forest or LSTM to visualize future risks and
+                        alert investors.</p>
+                </div>
+            </li>
+            <li>
+                <span class="outcome-number">03</span>
+                <div class="outcome-content">
+                    <h3>Decision Support Insights</h3>
+                    <p>Actionable recommendations for diversification and stop-loss strategies to minimize investor
+                        losses.</p>
+                </div>
+            </li>
+            <li>
+                <span class="outcome-number">04</span>
+                <div class="outcome-content">
+                    <h3>Data-Driven Visualization</h3>
+                    <p>Comprehensive reports with correlation graphs, feature importance charts, and forecasting plots.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="section-header">
+            <h2>Project Team</h2>
+            <div class="line"></div>
+        </div>
+        <div class="team-grid">
+            <div class="member-card">
+                <div class="avatar">T1</div>
+                <h3>Team Member 1</h3>
+                <p>Researcher</p>
+            </div>
+            <div class="member-card">
+                <div class="avatar">T2</div>
+                <h3>Team Member 2</h3>
+                <p>Analyst</p>
+            </div>
+            <div class="member-card highlight">
+                <div class="avatar">L</div>
+                <h3>Lead Developer</h3>
+                <p>Full Stack</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Department of Computer Science and Engineering, Vardhaman College of Engineering.</p>
+        <p class="copyright">Academic Project Presentation</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
